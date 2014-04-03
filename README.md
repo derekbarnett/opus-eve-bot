@@ -19,7 +19,7 @@ on connection to the mumble server.
 You need protobuf installed. After installation,
 you can compile the python module with:
 
-    protoc --python-out=. Mumble.proto
+    protoc --python_out=. Mumble.proto
 
 I use this bot as an audio test repeater, although
 the original intent for eve-bot was slightly 
