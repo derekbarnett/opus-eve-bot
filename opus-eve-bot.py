@@ -476,7 +476,7 @@ def main():
     p.add_option("-r","--relay-to",help="Channel to relay speech to (MANDATORY)",action="store",type="string")
     p.add_option("-s","--server",help="Host to connect to (default %default)",action="store",type="string",default="localhost")
     p.add_option("-p","--port",help="Port to connect to (default %default)",action="store",type="int",default=64738)
-    p.add_option("-n","--nick",help="Nickname for the eavesdropper (default %default)",action="store",type="string",default="-Eve-")
+    p.add_option("-n","--nick",help="Nickname for the eavesdropper (default %default)",action="store",type="string",default="-Opus-Eve-")
     p.add_option("-d","--delay",help="Time to delay speech by in seconds (default %default)",action="store",type="float",default=90)
     p.add_option("-m","--mimic-prefix",help="Prefix for mimic-bots (default %default)",action="store",type="string",default="Mimic-")
     p.add_option("-v","--verbose",help="Outputs and translates all messages received from the server",action="store_true",default=False)
